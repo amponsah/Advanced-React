@@ -1,7 +1,7 @@
 {
-  "name": "sick-fits-frontend",
+  "name": "directory-frontend",
   "version": "2.0.0",
-  "description": "Sick Fits! An example React, GraphQL, Next and Apollo",
+  "description": "Directory V13! An example React, GraphQL, Next and Apollo",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 7777",
@@ -63,7 +63,11 @@
   "eslintConfig": {
     "extends": [
       "wesbos"
-    ]
+    ],
+    "rules": {
+      "react/jsx-props-no-spreading": "off",
+      "react/prop-types": "off"
+    }
   },
   "jest": {
     "setupFilesAfterEnv": [
