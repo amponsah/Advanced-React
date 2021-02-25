@@ -2,6 +2,8 @@ import { ApolloProvider } from '@apollo/client';
 import Page from '../components/Page';
 import withData from '../lib/withData';
 
+import '../styles/antd.less';
+
 const MyApp = ({ Component, pageProps, apollo }) => (
   <ApolloProvider client={apollo}>
     <Page>
